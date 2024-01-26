@@ -74,7 +74,7 @@ class Movement extends Phaser.Scene {
         
         let playerMovement
         playerVector.length() ? playerMovement = 'walk' : playerMovement = 'idle'
-        this.player.play(playerMovement + '-' + playerDirection, true);
+        this.player.play(playerMovement + '-' + playerDirection, true); 
         
         //this.player.x += playerVector.x * this.PLAYER_VELOCITY;
         //this.player.y +=    playerVector.y * this.PLAYER_VELOCITY;
