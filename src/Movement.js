@@ -4,7 +4,7 @@ class Movement extends Phaser.Scene {
     }
 
     init() {
-        this.PLAYER_VELOCITY = 6;
+        this.PLAYER_VELOCITY = 300;
     }
 
     preload() {

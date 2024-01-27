@@ -15,7 +15,9 @@ let config = {
     },
     physics: {
         default: 'arcade',
-        debug: true
+        arcade: {
+            debug: true
+    }
     },
     scene: [ Movement ]
     
